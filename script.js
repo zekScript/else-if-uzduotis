@@ -80,12 +80,22 @@
 // }
 
 
-let sk = 12;
+// let sk = 12;
 
-if (sk % 2 === 0){
-      console.log(`${sk} yra lyginis`)
+// if (sk % 2 === 0){
+//       console.log(`${sk} yra lyginis`)
+// }
+// else{
+//       console.log(`${sk} yra nelyginis`)
+
+// }
+
+let studentSkaicius = 49; 
+
+if (studentSkaicius >= 50){
+      console.log("islaike")
 }
 else{
-      console.log(`${sk} yra nelyginis`)
+      console.log("neislaike")
 
 }
