@@ -61,20 +61,31 @@
 //       console.log("Neteisingai parasete skaiciu bandykite dar karta")
 // }
 
-let valanda = 19
+// let valanda = 19
 
-if (valanda >= 5 && valanda <= 11){
-      console.log("Rytas")
-}
-else if(valanda >= 12 && valanda <= 17){
-      console.log("Popiete")
-}
-else if(valanda >= 18 && valanda <= 22){
-      console.log("Vakaras")
-}
-else if (valanda >= 22 && valanda <= 4){
-      console.log("Naktis")
+// if (valanda >= 5 && valanda <= 11){
+//       console.log("Rytas")
+// }
+// else if(valanda >= 12 && valanda <= 17){
+//       console.log("Popiete")
+// }
+// else if(valanda >= 18 && valanda <= 22){
+//       console.log("Vakaras")
+// }
+// else if (valanda >= 22 && valanda <= 4){
+//       console.log("Naktis")
+// }
+// else{
+//       console.log("Neteisingai parasete valanda turi buti nuo 0 iki 24")
+// }
+
+
+let sk = 12;
+
+if (sk % 2 === 0){
+      console.log(`${sk} yra lyginis`)
 }
 else{
-      console.log("Neteisingai parasete valanda turi buti nuo 0 iki 24")
+      console.log(`${sk} yra nelyginis`)
+
 }
