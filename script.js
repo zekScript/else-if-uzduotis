@@ -36,27 +36,45 @@
 // }
 
 
-let paz = -50;
+// let paz = -50;
 
 
-if (paz >= 90 && paz <= 100){
-      console.log("A")
+// if (paz >= 90 && paz <= 100){
+//       console.log("A")
+// }
+// else if (paz >= 80 && paz <= 89){
+//       console.log("B")
+// }
+// else if(paz >= 70 && paz <= 79){
+//       console.log("C")
+// }
+// else if(paz >= 60 && paz <= 69){
+//       console.log("D")
+// }
+// else if(paz >= 50 && paz <= 59){
+//       console.log("E")
+// }
+// else if(paz >= 0 && paz <= 49){
+//       console.log("Nepakankamas")
+// }
+// else{
+//       console.log("Neteisingai parasete skaiciu bandykite dar karta")
+// }
+
+let valanda = 19
+
+if (valanda >= 5 && valanda <= 11){
+      console.log("Rytas")
 }
-else if (paz >= 80 && paz <= 89){
-      console.log("B")
+else if(valanda >= 12 && valanda <= 17){
+      console.log("Popiete")
 }
-else if(paz >= 70 && paz <= 79){
-      console.log("C")
+else if(valanda >= 18 && valanda <= 22){
+      console.log("Vakaras")
 }
-else if(paz >= 60 && paz <= 69){
-      console.log("D")
-}
-else if(paz >= 50 && paz <= 59){
-      console.log("E")
-}
-else if(paz >= 0 && paz <= 49){
-      console.log("Nepakankamas")
+else if (valanda >= 22 && valanda <= 4){
+      console.log("Naktis")
 }
 else{
-      console.log("Neteisingai parasete skaiciu bandykite dar karta")
+      console.log("Neteisingai parasete valanda turi buti nuo 0 iki 24")
 }
