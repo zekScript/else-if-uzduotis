@@ -90,12 +90,55 @@
 
 // }
 
-let studentSkaicius = 49; 
+// let studentSkaicius = 49; 
 
-if (studentSkaicius >= 50){
-      console.log("islaike")
-}
-else{
-      console.log("neislaike")
+// if (studentSkaicius >= 50){
+//       console.log("islaike")
+// }
+// else{
+//       console.log("neislaike")
 
+// }
+
+let menesioSk = 4;
+
+switch(menesioSk){
+      case 1:
+            console.log("Sausis");
+            break
+      case 2:
+            console.log("Vasaris");
+            break
+      case 3:
+            console.log("Kovas");
+            break
+      case 4:
+            console.log("Balandis");
+            break
+      case 5:
+            console.log("Gegužė");
+            break
+      case 6:
+            console.log("Birželis");
+            break
+            
+      case 7:
+            console.log("Liepa");
+            break
+      case 8:
+            console.log("Rugpjūtis");
+            break
+      case 9:
+            console.log("Rugsėjis");
+            break
+      case 10:
+            console.log("Spalis");
+            break      
+      case 11:
+            console.log("Lapkritis");
+            break      
+      case 12:      
+            console.log("Gruodis");
+            break
 }
+
