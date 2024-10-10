@@ -100,46 +100,21 @@
 
 // }
 
-let menesioSk = 4;
 
-switch(menesioSk){
-      case 1:
-            console.log("Sausis (Žiema)");
+let kalbaPasisveikinimas = "lietuvių";
+
+switch(kalbaPasisveikinimas){
+      case "lietuvių":
+            console.log("Sveiki");
             break
-      case 2:
-            console.log("Vasaris(Žiema)");
+      case "japonų":
+            console.log("こんにちは");
             break
-      case 3:
-            console.log("Kovas(Pavasaris)");
+      case "italų":
+            console.log("Ciao");
             break
-      case 4:
-            console.log("Balandis(Pavasaris)");
-            break
-      case 5:
-            console.log("Gegužė(Pavasaris)");
-            break
-      case 6:
-            console.log("Birželis(Vasara)");
-            break
-            
-      case 7:
-            console.log("Liepa(Vasara)");
-            break
-      case 8:
-            console.log("Rugpjūtis(Vasara)");
-            break
-      case 9:
-            console.log("Rugsėjis(Ruduo)");
-            break
-      case 10:
-            console.log("Spalis(Ruduo)");
-            break      
-      case 11:
-            console.log("Lapkritis(Ruduo)");
-            break      
-      case 12:      
-            console.log("Gruodis(Žiema)");
-            break
+      default:
+            console.log("Atsiprašome už klaidą bandykite dar karta");
 }
 
 
