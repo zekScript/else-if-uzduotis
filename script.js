@@ -1,129 +1,14 @@
-// Scripting side
+const sportas = "futbolas";
 
-// let numerisVienas = 13;
-// let numerisDu = 13;
-
-// if (numerisVienas > numerisDu){
-//       console.log(`${numerisVienas} numeris yra didesnis nei ${numerisDu} numeris`);
-// }
-// else if(numerisVienas === numerisDu){
-// console.log(`${numerisVienas} numeris toks pat kaip ${numerisDu} numeris`);
-// }
-// else{
-//       console.log(`${numerisVienas} numeris yra mazesnis nei ${numerisDu} numeris`);
-// }
-
-
-// let asmensAmzius = 19;
-
-// if (asmensAmzius <= 12){
-//       console.log("Jus esate vaikas")
-// }
-// else if(asmensAmzius >= 13 && asmensAmzius <= 17){
-//       console.log("Jus esate paauglys");
-// }
-// else if(asmensAmzius >= 18 && asmensAmzius <= 64){
-//       console.log("Jus esate suauges");
-// }
-// else if(asmensAmzius >= 65){
-//       console.log("Jus esate senjoras");
-// }
-// else if(asmensAmzius < 0){
-//       console.log(`${asmensAmzius} negali buti maziau negi 0`)
-// }
-// else{
-//       console.log("Error (nera skaiciu)");
-// }
-
-
-// let paz = -50;
-
-
-// if (paz >= 90 && paz <= 100){
-//       console.log("A")
-// }
-// else if (paz >= 80 && paz <= 89){
-//       console.log("B")
-// }
-// else if(paz >= 70 && paz <= 79){
-//       console.log("C")
-// }
-// else if(paz >= 60 && paz <= 69){
-//       console.log("D")
-// }
-// else if(paz >= 50 && paz <= 59){
-//       console.log("E")
-// }
-// else if(paz >= 0 && paz <= 49){
-//       console.log("Nepakankamas")
-// }
-// else{
-//       console.log("Neteisingai parasete skaiciu bandykite dar karta")
-// }
-
-// let valanda = 19
-
-// if (valanda >= 5 && valanda <= 11){
-//       console.log("Rytas")
-// }
-// else if(valanda >= 12 && valanda <= 17){
-//       console.log("Popiete")
-// }
-// else if(valanda >= 18 && valanda <= 22){
-//       console.log("Vakaras")
-// }
-// else if (valanda >= 22 && valanda <= 4){
-//       console.log("Naktis")
-// }
-// else{
-//       console.log("Neteisingai parasete valanda turi buti nuo 0 iki 24")
-// }
-
-
-// let sk = 12;
-
-// if (sk % 2 === 0){
-//       console.log(`${sk} yra lyginis`)
-// }
-// else{
-//       console.log(`${sk} yra nelyginis`)
-
-// }
-
-// let studentSkaicius = 49; 
-
-// if (studentSkaicius >= 50){
-//       console.log("islaike")
-// }
-// else{
-//       console.log("neislaike")
-
-// }
-
-let savaitesDiena = 2;
-
-switch(savaitesDiena){
-      case 1:
-            console.log("Šiandiem pirmadienis gero savaitės pradžios diena!");
+switch(sportas){
+      case "futbolas":
+            console.log("reikės futbolo kamuolio");
             break
-      case 1:
-            console.log("Šiandiem antradienis gero geriau negi pirmadienio!");
+      case "tenisas":
+            console.log("reikės teniso rakėtes ir teniso kamuolio");
             break
-      case 1:
-            console.log("Šiandiem trečiadienis gero vidutiniško diena!");
-            break
-      case 1:
-            console.log("Šiandiem ketvirtadienis gero savaitės diena!");
-            break
-      case 1:
-            console.log("Šiandiem penktadienis gero pačio geriausio savaitės diena!");
-            break
-      case 1:
-            console.log("Šiandiem šeštadienis gero savaitgalio!");
-            break
-      case 1:
-            console.log("Šiandiem sekmadienis gero savaitgalio!");
+      case "krepšinis":
+            console.log("reikės krepšinio kamuolio");
       default:
-            console.log("Parašykite skaičių 1-7!");
-
+            console.log("dabar tik galiu pasakyti apie (tenisas, krepšinis, futbolas)");
 }
