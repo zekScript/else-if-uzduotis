@@ -100,21 +100,30 @@
 
 // }
 
+let savaitesDiena = 2;
 
-let kalbaPasisveikinimas = "lietuvių";
-
-switch(kalbaPasisveikinimas){
-      case "lietuvių":
-            console.log("Sveiki");
+switch(savaitesDiena){
+      case 1:
+            console.log("Šiandiem pirmadienis gero savaitės pradžios diena!");
             break
-      case "japonų":
-            console.log("こんにちは");
+      case 1:
+            console.log("Šiandiem antradienis gero geriau negi pirmadienio!");
             break
-      case "italų":
-            console.log("Ciao");
+      case 1:
+            console.log("Šiandiem trečiadienis gero vidutiniško diena!");
             break
+      case 1:
+            console.log("Šiandiem ketvirtadienis gero savaitės diena!");
+            break
+      case 1:
+            console.log("Šiandiem penktadienis gero pačio geriausio savaitės diena!");
+            break
+      case 1:
+            console.log("Šiandiem šeštadienis gero savaitgalio!");
+            break
+      case 1:
+            console.log("Šiandiem sekmadienis gero savaitgalio!");
       default:
-            console.log("Atsiprašome už klaidą bandykite dar karta");
+            console.log("Parašykite skaičių 1-7!");
+
 }
-
-
