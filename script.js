@@ -104,41 +104,42 @@ let menesioSk = 4;
 
 switch(menesioSk){
       case 1:
-            console.log("Sausis");
+            console.log("Sausis (Žiema)");
             break
       case 2:
-            console.log("Vasaris");
+            console.log("Vasaris(Žiema)");
             break
       case 3:
-            console.log("Kovas");
+            console.log("Kovas(Pavasaris)");
             break
       case 4:
-            console.log("Balandis");
+            console.log("Balandis(Pavasaris)");
             break
       case 5:
-            console.log("Gegužė");
+            console.log("Gegužė(Pavasaris)");
             break
       case 6:
-            console.log("Birželis");
+            console.log("Birželis(Vasara)");
             break
             
       case 7:
-            console.log("Liepa");
+            console.log("Liepa(Vasara)");
             break
       case 8:
-            console.log("Rugpjūtis");
+            console.log("Rugpjūtis(Vasara)");
             break
       case 9:
-            console.log("Rugsėjis");
+            console.log("Rugsėjis(Ruduo)");
             break
       case 10:
-            console.log("Spalis");
+            console.log("Spalis(Ruduo)");
             break      
       case 11:
-            console.log("Lapkritis");
+            console.log("Lapkritis(Ruduo)");
             break      
       case 12:      
-            console.log("Gruodis");
+            console.log("Gruodis(Žiema)");
             break
 }
+
 
